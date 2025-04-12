@@ -20,9 +20,9 @@ public class MagicRestController {
 
     @GetMapping("/team")
     public String getTeamInfo() {
-        return "Wizard name: " + wizardName +
+        return "Wizard name: "     + wizardName +
                 ", Wizard house: " + wizardHouse +
-                "Wizard spell: " + wizardSpell;
+                "Wizard spell: "   + wizardSpell;
     }
 
 }
